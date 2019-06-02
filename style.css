@@ -36,13 +36,14 @@ button{
     border: none;
     font-family: serif;
    background-color: green;
-   cursor: pointer;
+
    transition: all 0.5s;
    box-shadow: 1px 1px 5px 1px #0707078f;
 }
 button:hover{
     background-color: darkgrey;
     color:darkmagenta;
+    cursor: pointer;
 }
   button:active{
       box-shadow: none;
